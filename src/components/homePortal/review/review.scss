@@ -1,0 +1,213 @@
+@import '../../../assets/css/custom.scss';
+#suit-left{
+  right: 200px !important;
+}
+:global{
+  .reviewContent {
+    color: #485767;
+    .title {
+      @extend %font-family-Regular;
+      font-size: 26px;
+      margin-left: 20px;
+    }
+    .contentList {
+      font-size: 14px;
+      color: #485767;
+      ul li {
+        padding: 10px 0;
+        width: 100%;
+      }
+      .list-left {
+        @extend %font-family-Medium;
+
+        text-align: right;
+        display: inline-block;
+        width: 90px;
+      }
+      .list-right {
+
+        display: inline-block;
+        text-align: left;
+        width: calc(100% - 90px);
+        @extend %font-family-Regular;
+        vertical-align: middle;
+        .inputBox {
+          float: left;
+          font-size: 14px;
+          color: #485767;
+          margin-right: 5px;
+          input {
+            width: 42px;
+            height: 28px;
+            line-height: 28px;
+            vertical-align: middle;
+            background: #FFFFFF;
+            border: 1px solid #DADEE2;
+            border-radius: 2px;
+            text-indent: 8px;
+          }
+        }
+        .prompt{
+          float: left;
+          font-size: 12px;
+          color: #F75A5A;
+          margin-left: 12px;
+          margin-top: 5px;
+
+        }
+
+      }
+
+      .radioSelected{
+        display: inline-block;
+        width: 18px;
+        height: 18px;
+        background: url('https://s3.cn-north-1.amazonaws.com.cn/wechat.gemii.cc/static/launch/static/images/icongraphy.png') no-repeat;
+        background-size: 1280px 900px;
+        background-position: -34px -18px;
+        vertical-align: middle;
+        margin-bottom: 2px;
+        margin-right: 8px;
+
+
+      }
+      .noSelected{
+        background-position: -34px -36px;
+      }
+    }
+
+    .material{
+      p:last-child{
+        margin-bottom:0;
+      }
+      .name{
+        min-width: 50px;
+        display: inline-block;
+      }
+      .previewBtn{
+        display: inline-block;
+        width: 40px;
+        height: 22px;
+        margin-left: 28px;
+        border: 1px solid transparent;
+        line-height: 20px;
+        text-align: center;
+        cursor: pointer;
+        &:hover{
+          border: 1px solid #39c272;
+          border-radius: 4px;
+          color: #39c272;
+        }
+
+      }
+    }
+    .preview {
+      position: fixed;
+      left: 0;
+      top: 0;
+      -webkit-box-shadow: 0 6px 12px 0 #DEDEDE, 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+      box-shadow: 0 6px 12px 0 #DEDEDE, 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+      border-radius: 2px;
+    }
+
+    .grouplist {
+      @extend %font-family-Regular;
+      font-size: 14px;
+      color: #485767;
+      padding: 0 !important;
+      li {
+        padding: 7px 0 !important;
+        span {
+          display: inline-block;
+          margin-right: 10px;
+
+        }
+        .left{
+          width: 45%;
+          span:nth-child(1),span:nth-child(2){
+            width: 25%;
+          }
+          span:nth-child(3){
+            width: 20%;
+          }
+        }
+
+        &>div{
+          display: inline-block;
+        }
+      }
+
+      .edit, .delete {
+        color: #288BF2;
+        cursor: pointer;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+      .edit {
+        margin-left: 30px;
+      }
+      .delete {
+        &:hover {
+          color: #F75A5A;
+        }
+      }
+      .addBox {
+        @extend %font-family-Regular;
+        margin: 10px 0;
+        .addBtn {
+          font-size: 14px;
+          color: #288BF2;
+          border: 1px solid #288BF2;
+          border-radius: 2px;
+          width: 89px;
+          height: 30px;
+          line-height: 28px;
+          text-align: center;
+          cursor: pointer;
+
+        }
+        .addPrompt {
+          font-size: 12px;
+          color: #F75A5A;
+          margin-left: 12px;
+        }
+      }
+
+    }
+
+    .review-btn-wrapper{
+      text-align: right;
+      margin: 0 50px 20px;
+      button{
+        font-family: PingFangSC-Regular;
+        font-size: 14px;
+        width: 120px;
+        height: 36px;
+        line-height: 34px;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      .failBtn{
+        border: 1px solid #288BF2;
+        color: #288BF2;
+        &:hover{
+          background: #58A7F8;
+          color: #FFFFFF;
+          border: none;
+        }
+      }
+      .okBtn{
+        background: #58A7F8;
+        color: #FFFFFF;
+        margin-left:30px ;
+        &:hover{
+          opacity: .8;
+        }
+      }
+    }
+
+  }
+}
+
+

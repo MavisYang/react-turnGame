@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent; }
+
+ul li {
+  list-style: none; }
+
+textarea::-webkit-input-placeholder,
+input::-webkit-input-placeholder {
+  color: #B5BDC6; }
+
+textarea::-moz-input-placeholde,
+input::-moz-input-placeholder {
+  color: #B5BDC6; }
+
+textarea::-o-input-placeholder,
+input::-o-input-placeholder {
+  color: #B5BDC6; }
+
+.LoadingCenter {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -999;
+  font-size: 28px; }
+
+:global .edit-wrapper .edit-content > div .titleInput {
+  font-family: PingFangSC;
+  font-weight: 300;
+  font-size: 14px;
+  color: #485767; }
+
+:global .edit-btnwrapper button {
+  font-family: PingFangSC;
+  font-weight: 300;
+  font-size: 14px; }
+
+:global .edit-wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); }
+
+:global .editModal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  z-index: 999; }
+:global .edit-wrapper {
+  padding: 0 50px;
+  background: #F8F8F9;
+  box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.24);
+  border-radius: 2px; }
+  :global .edit-wrapper .edit-title {
+    font-family: PingFangSC-Medium;
+    font-size: 13px;
+    color: #485767;
+    text-align: center;
+    padding: 30px 0; }
+  :global .edit-wrapper .edit-content {
+    font-family: PingFangSC-Medium;
+    font-size: 14px;
+    color: #485767; }
+    :global .edit-wrapper .edit-content > div {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      padding: 10px 0; }
+      :global .edit-wrapper .edit-content > div .edit-label {
+        width: 84px;
+        text-align: right;
+        margin-right: 10px; }
+      :global .edit-wrapper .edit-content > div .titleInput {
+        width: 180px;
+        height: 30px;
+        line-height: 30px;
+        color: #485767;
+        border: 1px solid transparent;
+        border-radius: 2px;
+        font-weight: 300;
+        font-size: 14px;
+        text-indent: 12px;
+        background: #fff; }
+      :global .edit-wrapper .edit-content > div .titleInput[disabled] {
+        color: #B5BDC6;
+        background: #E9EBEE; }
+:global .edit-btnwrapper {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center; }
+  :global .edit-btnwrapper button {
+    width: 100px;
+    height: 30px;
+    line-height: 28px;
+    text-align: center;
+    border-radius: 2px;
+    margin: 0 20px;
+    cursor: pointer; }
+  :global .edit-btnwrapper .cancelBtn {
+    border: 1px solid #B5BDC6;
+    color: #B5BDC6; }
+    :global .edit-btnwrapper .cancelBtn:hover {
+      border: 1px solid #58A7F8;
+      color: #58A7F8; }
+  :global .edit-btnwrapper .confirmBtn {
+    background: #58A7F8;
+    border: 1px solid #58A7F8;
+    color: #FFFFFF; }
+    :global .edit-btnwrapper .confirmBtn:hover {
+      opacity: 0.8; }
+:global .scheduleList {
+  transition: all .5s ease-in-out;
+  max-height: 150px;
+  overflow: auto; }
+
+/*# sourceMappingURL=editandAdd.css.map */

@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+  -webkit-tap-highlight-color: transparent;
+}
+
+ul li {
+  list-style: none;
+}
+
+input::-webkit-input-placeholder {
+  color: #9B9B9B;
+}
+
+textarea::-moz-input-placeholde {
+  color: #9B9B9B;
+}
+
+input::-o-input-placeholder {
+  color: #9B9B9B;
+}
+
+.containter {
+  width: 100vw;
+  height: 100vh;
+  background: -webkit-linear-gradient(top, #FDD434, #F8E983, #F9E676, #FDD22C);
+}
+
+.popupModel {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(30, 34, 32, 0.4);
+  z-index: 10;
+}
+
+.historyWrapper {
+  height: 100%;
+}
+
+.historyWrapper .title {
+  width: 100%;
+  height: 129px;
+  line-height: 129px;
+  text-align: center;
+  font-size: 36px;
+  color: #F88359;
+  letter-spacing: 0;
+  font-weight: 600;
+}
+
+.historyWrapper .content {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+.historyWrapper .content .prompt {
+  text-align: center;
+  margin-top: 40%;
+}
+
+.historyWrapper .content .prompt img {
+  width: 240px;
+  height: 240px;
+}
+
+.historyWrapper .content .prompt p {
+  font-family: PingFangSC-Regular;
+  font-size: 24px;
+  color: #262D53;
+  line-height: 30px;
+  margin-top: 40px;
+}
+
+.historyWrapper .lotteryBox {
+  background: #FFFFFF;
+  box-shadow: 0 2px 13px 0 #F88359;
+  border-radius: 12px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  height: 96px;
+  width: 620px;
+  display: flex;
+}
+
+.historyWrapper .coupon {
+  display: inline-block;
+  width: 389px;
+  font-size: 24px;
+  line-height: 100px;
+  padding-left: 40px;
+  padding-right: 40px;
+  letter-spacing: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.historyWrapper .doneBtn {
+  width: 157px;
+  height: 62px;
+  line-height: 62px;
+  background: #D5D5D5;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 24px;
+  float: right;
+  margin: 17px 25px 0 0;
+}
+
+.historyWrapper .unDoneBtn {
+  width: 157px;
+  height: 62px;
+  line-height: 62px;
+  background: #F88359;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 24px;
+  float: right;
+  margin: 17px 25px 0 0;
+}
+
+.historyWrapper .btn-coupon {
+  background: #F88359;
+}
+
+.historyWrapper .btn-post {
+  background: #D5D5D5;
+}
+
+.historyWrapper .againLottery {
+  position: fixed;
+  bottom: 90px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.historyWrapper .againLottery .againBtn {
+  -webkit-appearance: none;
+  outline: none;
+  width: 481px;
+  border-radius: 100px;
+  height: 82px;
+  font-size: 28px;
+  color: #FFFFFF;
+  background: #F88359;
+}

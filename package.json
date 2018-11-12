@@ -1,0 +1,29 @@
+{
+  "name": "turnGame",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^3.8.0",
+    "axios": "^0.18.0",
+    "history": "^4.7.2",
+    "jquery": "^3.3.1",
+    "js-base64": "^2.4.8",
+    "node-sass-chokidar": "^1.3.3",
+    "npm-run-all": "^4.1.3",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-loadable": "^5.4.0",
+    "react-router": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "react-transition-group": "^2.5.0",
+    "save": "^2.3.2",
+    "spring-picker": "^16.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

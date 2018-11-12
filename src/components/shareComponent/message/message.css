@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent; }
+
+ul li {
+  list-style: none; }
+
+textarea::-webkit-input-placeholder,
+input::-webkit-input-placeholder {
+  color: #B5BDC6; }
+
+textarea::-moz-input-placeholde,
+input::-moz-input-placeholder {
+  color: #B5BDC6; }
+
+textarea::-o-input-placeholder,
+input::-o-input-placeholder {
+  color: #B5BDC6; }
+
+.LoadingCenter {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -999;
+  font-size: 28px; }
+
+.messages-main .messages-main-content .messages-main-icon {
+  background: url("/images/icongraphy.png") no-repeat;
+  background-size: 1280px 900px; }
+
+.messages-main .messages-main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  height: 38px;
+  line-height: 38px;
+  width: 100%;
+  text-align: center;
+  background: #39C272;
+  font-weight: 400;
+  font-size: 14px;
+  z-index: 9999; }
+  .messages-main .messages-main-content.success {
+    background: rgba(57, 194, 114, 0.1);
+    color: #39C272; }
+  .messages-main .messages-main-content.error {
+    background: #FDE5E5;
+    color: #F97B7B; }
+  .messages-main .messages-main-content.warning {
+    background: #FDE5E5;
+    color: #F97B7B; }
+  .messages-main .messages-main-content.loading {
+    background: #ECF5FE;
+    color: #58A7F8; }
+  .messages-main .messages-main-content.other {
+    background: rgba(57, 194, 114, 0.1);
+    color: #39C272; }
+  .messages-main .messages-main-content .messages-main-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px; }
+    .messages-main .messages-main-content .messages-main-icon.success {
+      background-position: -58px -349px; }
+    .messages-main .messages-main-content .messages-main-icon.error {
+      background-position: -58px -373px; }
+    .messages-main .messages-main-content .messages-main-icon.warning {
+      background-position: -58px -349px; }
+    .messages-main .messages-main-content .messages-main-icon.other {
+      background-position: -58px -349px; }
+
+/*# sourceMappingURL=message.css.map */

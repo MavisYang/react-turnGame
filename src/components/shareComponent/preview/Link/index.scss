@@ -1,0 +1,41 @@
+@import "../../../../assets/css/custom.scss";
+.link {
+    @extend %font-16px;
+    color: #393D3B;
+    width: 280px;
+    height: 138px;
+    padding: 14px;
+    background: #FFFFFF;
+    a{
+      display: block;
+      color: #393D3B !important;
+      text-decoration: none;
+    }
+    .top {
+        width: 100%;
+        height: 44px;
+        margin-bottom: 6px;
+        @include multiTextHide(2);
+        font-weight: 400;
+    }
+    .bottom {
+        height: 60px;
+        .left {
+            font-size: 12px;
+            line-height: 17px;
+            height: 51px;
+            color: #707371;
+            width: 178px;
+            float: left;
+            @include multiTextHide(3);
+        }
+        .right {
+            float: right;
+            width: 60px;
+            height: 60px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+    }
+}
